@@ -11,7 +11,7 @@ server:
       ignoreCertError: false # If set to true, certificate errors will be ignored. E.g. self-signed certificates will be accepted
       backend:
       - path: /sap
-        url: http://euawssapceq.ad.corcym.com:8001
+        url: http://sorin-sod.sorelm.ad:8443
         destination: SAP_Gateway
       ui5:
         path: 
